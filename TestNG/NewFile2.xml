@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name ="suite test 2">
+<listeners>
+<listener class-name="tectNG.ListenersTest"></listener>
+</listeners>
+<test name ="Testing2" parallel="methods" thread-count="2">
+<classes>
+<class name ="tectNG.parallelTest">
+</class>
+</classes>
+</test>
+</suite>

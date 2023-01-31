@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name ="New Suite" verbose="10">
+<test name = "New Test">
+
+<parameter name="EmpName" value="Manoj"></parameter>
+<parameter name="EmpId" value="463571"></parameter>
+<groups>
+<run>
+<!-- <exclude name ="Apple"></exclude> -->
+
+</run>
+</groups>
+<classes>
+<class name="tectNG.ParameterPassing"></class>
+
+
+
+</classes>
+</test>
+</suite>
+
+<!-- <class name ="tectNG.GroupingTest"> </class>
+ -->  
+ 
+ 
+<!-- <class name = "tectNG.FirstTest" > </class>
+<class name = "tectNG.dependsTesting" > </class>
+ -->

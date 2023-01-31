@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [New Suite]" guice-stage="DEVELOPMENT" verbose="10">
+  <test thread-count="5" name="New Test(failed)" verbose="10">
+    <parameter name="EmpName,EmpId" value="Manoj,(int)25"/>
+    <classes>
+      <class name="tectNG.ParameterPassing">
+        <methods>
+          <include name="EmpName"/>
+        </methods>
+      </class> <!-- tectNG.ParameterPassing -->
+    </classes>
+  </test> <!-- New Test(failed) -->
+</suite> <!-- Failed suite [New Suite] -->
